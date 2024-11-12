@@ -226,9 +226,8 @@ public class FileBrowserWindow extends JFrame {
         MAGIC_NUMBERS.put("49492A00", "TIFF Image (little-endian)");
         MAGIC_NUMBERS.put("4D4D002A", "TIFF Image (big-endian)");
   
-         // Audio and Video Types
+        // Audio and Video Types
         MAGIC_NUMBERS.put("66747970", "MP4"); // MP4/MOV (ftyp)
-        MAGIC_NUMBERS.put("494433", "MP3"); // MP3 (ID3v2)
         MAGIC_NUMBERS.put("FFFB", "MP3"); // MP3 (MPEG Header)
         MAGIC_NUMBERS.put("FFF3", "MP3"); // MP3 (MPEG Header)
         MAGIC_NUMBERS.put("52494646", "WAV"); // WAV/AVI (RIFF)

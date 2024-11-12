@@ -10,7 +10,6 @@ public class Main {
         	filebrowser.setVisible(true);
         });
     }
-
 }
 
 
